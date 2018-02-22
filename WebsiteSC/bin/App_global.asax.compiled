@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/hmariner/global.asax" hash="ffffffffe19f3a00" filehash="fffffad20f1afc70" flags="150000" assembly="LastDll" type="ASP.global_asax">
+  <filedeps>
+    <filedep name="/hmariner/global.asax" />
+  </filedeps>
+</preserve>
