@@ -13,15 +13,15 @@
                         <ul class="mailbox-list">
                             <li>
                                 <a class="btn btn-info" href="h_Ship_ch.aspx">
-                                    
-                                    <i class="fa fa fa-list"></i>  کشتی های من 
+
+                                    <i class="fa fa fa-list"></i>  کشتی های من
 
                                 </a>
                             </li>
                             <li>
                                 <a class="btn btn-primary" href="h_ship_ins.aspx"><i class="fa fa fa-plus"></i> کشتی جدید</a>
                             </li>
-                            
+
                         </ul>
                         <hr/>
                         <ul class="mailbox-list">
@@ -31,7 +31,7 @@
                             <li>
                                 <a  class="btn btn-primary" href="h_Shipbuilding_ins.aspx"><i class="fa fa-plus"></i> کشتی سازی جدید</a>
                             </li>
-                           
+
                         </ul>
                         <hr/>
                         <ul class="mailbox-list">
@@ -41,14 +41,14 @@
                             <li>
                                 <a  class="btn btn-primary" href="h_sup_ins.aspx"><i class="fa fa-plus"></i> تجهیزات جدید</a>
                             </li>
-                           
+
                         </ul>
                          <ul class="mailbox-list">
                             <li>
                                 <a class="btn  btn-info"  href="h_cv_ins.aspx"><i class="fa fa-list "></i> رزومه من </a>
                             </li>
-                          
-                           
+
+
                         </ul>
 
                           <ul class="mailbox-list" runat="server" id="adminlist1">
@@ -58,8 +58,8 @@
                             <li>
                                 <a  class="btn btn-primary" href="h_cv_ins_admin_.aspx"><i class="fa fa-plus"></i> پرسنل دریایی جدید</a>
                             </li>
-                          
-                           
+
+
                         </ul>
 
                          <ul class="mailbox-list" runat="server" id="adminlist2">
@@ -69,8 +69,8 @@
                             <li>
                                 <a  class="btn btn-primary" href="addUser.aspx"><i class="fa fa-plus"></i> کاربر جدید</a>
                             </li>
-                          
-                           
+
+
                         </ul>
 
 
@@ -82,7 +82,7 @@
                 <div class="hpanel">
                     <div class="panel-heading">
                         <asp:Label Text="" ID="txtName00" runat="server" />
-                    
+
                     </div>
                     <div class="panel-body">
 
@@ -102,9 +102,9 @@
                             <div id="step1" runat="server" class="p-m tab-pane active" clientidmode="Static">
 
                                 <div class="row">
-                                
-                                        
-                              
+
+
+
                                     <div class="col-lg-12">
                                         <div class="row">
                                             <div class="form-group col-lg-6 col-lg-push-6">
@@ -170,7 +170,7 @@
                                             </div>
                                             <div class="form-group col-lg-6 col-lg-pull-6">
                                                 <label>تصویر را وارد کنید</label>
-                                                <asp:TextBox ID="txtimgcode" runat="server" placeholder="تصویط را وارد کنید" class="form-control"></asp:TextBox>
+                                                <asp:TextBox ID="txtimgcode" runat="server" placeholder="تصویر را وارد کنید" class="form-control"></asp:TextBox>
                                                 <asp:RequiredFieldValidator ErrorMessage="اجباری است" ControlToValidate="txtimgcode" runat="server"  ValidationGroup="sinup" />
                                             </div>
                                         </div>
@@ -180,7 +180,7 @@
 
                                 <div class="text-right m-t-xs">
 
-                                    <asp:Button ClientIDMode="Static" class="btn btn-success" runat="server" ID="btnAccept" Text="ثیت نام " OnClick="btnAccept_Click"  ValidationGroup="sinup" />
+                                    <asp:Button ClientIDMode="Static" class="btn btn-success" runat="server" ID="btnAccept" Text="ثبت نام " OnClick="btnAccept_Click"  ValidationGroup="sinup" />
                                 </div>
 
                             </div>
@@ -188,7 +188,7 @@
                             <div id="step2" class="p-m tab-pane" runat="server" clientidmode="Static">
 
                                 <div class="row">
-                               
+
                                     <div class="col-lg-12">
 
 
@@ -248,7 +248,7 @@
 
                                 <div class="text-right m-t-xs">
 
-                                    <asp:Button class="btn btn-success" runat="server" ID="btnCompanyAccept" Text="ثیت اطلاعات حقوقی " OnClick="btnCompanyAccept_Click" />
+                                    <asp:Button class="btn btn-success" runat="server" ID="btnCompanyAccept" Text="ثبت اطلاعات حقوقی " OnClick="btnCompanyAccept_Click" />
                                 </div>
 
                             </div>
@@ -256,7 +256,7 @@
                             <div id="step4" class="p-m tab-pane" runat="server" clientidmode="Static">
 
                                 <div class="row">
-                                    
+
                                     <div class="col-lg-12">
                                         <div class="row">
                                             <div class="form-group">
@@ -403,7 +403,7 @@
                             <div id="step5" class="p-m tab-pane" clientidmode="Static" runat="server">
 
                                 <div class="row">
-                        
+
                                     <div class="col-lg-12">
                                         <div class="row">
                                             <div class="form-group">
@@ -563,7 +563,7 @@
                                         </div>
                                         </p>
                                     </div>
-                  
+
 
                                 </div>
                                 <div class="text-right m-t-xs">
@@ -586,7 +586,7 @@
                 </div>
             </div>
 
-        
+
     </div>
         </div>
 </asp:Content>
