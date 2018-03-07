@@ -11,7 +11,7 @@
         function myscript( id )
         {
             document.getElementById("currentDeleteID").value = id;
-        
+
             $('#myModal').modal('show');
         }
     </script>
@@ -29,13 +29,13 @@
 
                 <div id="hbreadcrumb" class="pull-left m-t-lg">
                     <ol class="hbreadcrumb breadcrumb">
-                      
+
                          <li>
                             <a href="h_sup_ins.aspx" class="btn btn-info btn-sm">اضافه کردن تجهیزات دریایی جدید<i class="fa fa-plus"></i></a>
                         </li>
                     </ol>
                 </div>
-                <h2 class="font-light m-b-xs">لیست تجهیزات دریایی 
+                <h2 class="font-light m-b-xs">لیست تجهیزات دریایی
                 </h2>
                 <small>مشاهده و جستجوی تجهیزات  </small>
             </div>
@@ -51,10 +51,10 @@
                 <div class="panel-body">
                     <div class="m-b-md">
                         <h4>
-                            جستجو 
+                            جستجو
                         </h4>
                         <small>
-                            شما میتوانید از طریق ایتم های زیر محصولات و خدمات مورد نظر خود را گروه بندی کنید
+          شما می توانید از طریق موارد زیر محصولات و خدمات مورد نظر خود را گروه بندی کنید
                         </small>
                     </div>
 
@@ -62,7 +62,7 @@
                         <label class="control-label">واژه </label>
                         <div class="input-group">
                             <input type="text" id="txtWord" runat="server" class="form-control m-b" />
-                                
+
                         </div>
                     </div>
                      <div class="form-group">
@@ -77,10 +77,10 @@
                            <asp:DropDownList ID="txtGroupDte" runat="server" class="form-control m-b" name="account" DataTextField="StatuceName" DataValueField="ID" />
                         </div>
                     </div>
-        
-           
-           
-                    
+
+
+
+
 
                     <asp:Button runat="server" ID="btnSearch" class="btn btn-success btn-block" Text="جستجو" OnClick="btnSearch_Click"></asp:Button>
 
@@ -91,7 +91,7 @@
         </div>
             <div class="col-md-9">
                 <div class="hpanel">
-                   
+
                     <div class="panel-body">
                         <input type="text" class="form-control input-sm m-b-md" id="filter" placeholder="جستجو در تمام ایتم ها"/>
                         <table id="example1" class="footable table table-stripped toggle-arrow-circle-filled" data-page-size="8" data-filter="#filter">
@@ -108,7 +108,7 @@
                                     <th data-hide="all">نحوه پرداخت </th>
                                     <th data-hide="all">وضعیت </th>
                                     <th data-hide="all">تاییدیه دریایی</th>
-                                 
+
                                 </tr>
                             </thead>
                             <tbody>
@@ -122,10 +122,10 @@
                                              <td><%# Eval("Constant5.StatuceName")%></td>
                                                          <td>
                                                            <a class ="btn btn-info btn-sm" href="<%#"h_suply_dte.aspx?ID="+Eval("ID") %>"> اطلاعات بیشتر</a>
-                           
+
                                             </td>
                                             <td><%# Eval("Price")%></td>
-                               
+
                                             <td><%# Eval("Constant.StatuceName")%></td>
                                             <td><%# Eval("Constant1.StatuceName")%></td>
                                             <td>
@@ -134,7 +134,7 @@
                                                 </div>
 
                                             </td>
-                                       
+
 
                                         </tr>
                                     </ItemTemplate>
@@ -155,7 +155,7 @@
             </div>
         </div>
     </div>
-     
+
 </asp:Content>
 <asp:Content ContentPlaceHolderID="footer" runat="server" ID="ctl003">
     <script src="vendor/fooTable/dist/footable.all.min.js"></script>
@@ -174,5 +174,3 @@
 
     </script>
 </asp:Content>
-
-

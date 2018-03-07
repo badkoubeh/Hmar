@@ -12,7 +12,7 @@
         function myscript( id )
         {
             document.getElementById("currentDeleteID").value = id;
-        
+
             $('#myModal').modal('show');
         }
     </script>
@@ -30,13 +30,13 @@
 
                 <div id="hbreadcrumb" class="pull-left m-t-lg">
                     <ol class="hbreadcrumb breadcrumb">
-                       
+
                         <li>
                             <a href="h_cv_ins.aspx" class="btn btn-info btn-sm">اضافه کردن پرسنل جدید<i class="fa fa-plus"></i></a>
                         </li>
                     </ol>
                 </div>
-                <h2 class="font-light m-b-xs">لیست کاربران 
+                <h2 class="font-light m-b-xs">لیست کاربران
                 </h2>
                 <small> </small>
             </div>
@@ -54,7 +54,7 @@
                             <a class="showhide"><i class="fa fa-chevron-up"></i></a>
                             <a class="closebox"><i class="fa fa-times"></i></a>
                         </div>
-                        تامین پرسنل دریایی 
+                        تامین پرسنل دریایی
                     </div>
                     <div class="panel-body">
                         <input type="text" class="form-control input-sm m-b-md" id="filter" placeholder="Search in table">
@@ -68,7 +68,7 @@
                                     <th>نلفن همراه  </th>
                                         <th>تایید</th>
                                     <th></th>
-                                   
+
                                 </tr>
                             </thead>
                             <tbody>
@@ -78,18 +78,18 @@
                                             <td><%#Eval("FirstName") %></td>
                                             <td><%#Eval("LastName") %></td>
                                             <td><%# Eval("Email")%></td>
-                                            <td><%# Eval("CellPhone")%></td> 
+                                            <td><%# Eval("CellPhone")%></td>
                                             <th> <asp:CheckBox Checked='<%# (Eval("isOk") != null )  ? Eval("isOk"):Convert.ToBoolean(0)%> '  Enabled="false" runat="server" ID="cheksf"/></th>
-                                              <td> 
+                                              <td>
              <a class="btn btn-info btn-sm" runat="server" id="btnMoreInfo" href='<%#"h_cv_dte.aspx?ID="+Eval("ID")%>'> اطلاعات بیشتر</a>
                   <a class ="btn btn-primary btn-sm" runat="server" id="btnEdit" href='<%#"h_cv_Edit.aspx?ID="+Eval("ID") %>'>ویرایش</a>
                         <button type="button" class="btn btn-danger btn-sm" runat="server" id="btndelte"  title='<%#Eval("ID") %>'  onclick="myscript(this.title )"  >
                            حذف
-                     
+
                     </button>
                                                    <asp:Button runat="server" CssClass="btn btn-danger" Text="فعال/غیر فعال"  ID="btnisok" CommandArgument='<%#Eval("ID") %>' OnClick="btnisok_Click" />
                     </td>
-                                         
+
 
                                         </tr>
                                     </ItemTemplate>
@@ -116,7 +116,7 @@
                                 <div class="color-line"></div>
                                 <div class="modal-header text-center">
                                     <h4 class="modal-title">هشدار </h4>
-                                    <small class="font-bold">حدف ردیف انتخاب شده </small>
+                                    <small class="font-bold">حذف ردیف انتخاب شده </small>
                                 </div>
                                 <div class="modal-body">
                                     <p>توجه داشته باشید بعد از حذف این ردیف دیگر قادر به بازیابی اطلاعات آن نخواهید بود</p>

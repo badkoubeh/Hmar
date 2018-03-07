@@ -54,7 +54,7 @@
                                             <div class="form-group col-lg-6  col-lg-pull-6">
                                                 <label>شماره همراه </label>
                                                 <input runat="server" id="txtCellPhone" class="form-control" onkeypress='return isNumberKey(event);' name="" />
-                                               
+
 
                                             </div>
                                         </div>
@@ -106,7 +106,7 @@
                                             </div>
                                             <div class="form-group col-lg-6 col-lg-pull-6">
                                                 <label>تصویر را وارد کنید</label>
-                                                <asp:TextBox ID="txtimgcode" runat="server" placeholder="تصویط را وارد کنید" class="form-control"></asp:TextBox>
+                                                <asp:TextBox ID="txtimgcode" runat="server" placeholder="تصویر را وارد کنید" class="form-control"></asp:TextBox>
                                                 <asp:RequiredFieldValidator ErrorMessage="اجباری است" ControlToValidate="txtimgcode" runat="server"  ValidationGroup="sinup" />
                                             </div>
                                         </div>
@@ -116,7 +116,7 @@
 
                                 <div class="text-right m-t-xs">
 
-                                    <asp:Button ClientIDMode="Static" class="btn btn-success" runat="server" ID="btnAccept" Text="ثیت نام " OnClick="btnAccept_Click"  ValidationGroup="sinup" />
+                                    <asp:Button ClientIDMode="Static" class="btn btn-success" runat="server" ID="btnAccept" Text="ثبت نام " OnClick="btnAccept_Click"  ValidationGroup="sinup" />
                                 </div>
 
                             </div>
@@ -131,10 +131,10 @@
                                             <br />
                                             <strong runat="server" id="txtName00">:کاربر عزیز</strong>
                                             <br />
-                                            اطلاعات شرکت و سازمان خود را در این قسمت وارد کنید 
+                                            اطلاعات شرکت و سازمان خود را در این قسمت وارد کنید
 
                                         <br />
-                                            
+
                                         </p>
                                     </div>
                                     <div class="col-lg-9">
@@ -196,7 +196,7 @@
 
                                 <div class="text-right m-t-xs">
 
-                                    <asp:Button class="btn btn-success" runat="server" ID="btnCompanyAccept" Text="ثیت اطلاعات حقوقی " OnClick="btnCompanyAccept_Click" />
+                                    <asp:Button class="btn btn-success" runat="server" ID="btnCompanyAccept" Text="ثبت اطلاعات حقوقی " OnClick="btnCompanyAccept_Click" />
                                 </div>
 
                             </div>
@@ -211,7 +211,7 @@
                                             <br />
                                             <strong runat="server" id="txtName02">:کاربر عزیز</strong>
                                             <br />
-                                            
+
                                             در این قسمت تنها تخصص اصلی  شرکت یا شخص خود را وارد کنید و سایر فعالیت های خود را در قسمت  دیگر فعالیت ها پر کنید
                                         </p>
                                     </div>
@@ -368,7 +368,7 @@
                                             <br />
                                             <strong runat="server" id="txtName03"> :کاربر عزیز</strong>
                                             <br />
-                                            در این قسمت خدمات و فعالیت های دیگری که شخص یا شرکت شما قادر به اریه آن میباشد وارد کنید
+                                             در این قسمت خدمات و فعالیت های دیگری که شخص یا شرکت شما قادر به ارایه آن می باشد را وارد کنید
                                         </p>
                                     </div>
                                     <div class="col-lg-9">
@@ -516,7 +516,7 @@
                             </div>
 
 
-                   
+
                         </div>
 
 

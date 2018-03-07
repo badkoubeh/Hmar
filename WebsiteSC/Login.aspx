@@ -64,7 +64,7 @@
                             <div class="checkbox">
                                 <input type="checkbox" class="i-checks" checked>
                                     مرا به  خاطر بسپار
-                                <p class="help-block small">(اگر این دیوایس شخصی شماست)</p>
+                                <p class="help-block small">(اگر این دستگاه شخصی شماست)</p>
                             </div>
                             <asp:Button runat="server" class="btn btn-success btn-block" Text="ورود" OnClick="Unnamed_Click"></asp:Button>
                             <a class="btn btn-default btn-block" href="Signup.aspx">عضویت</a>
@@ -76,7 +76,7 @@
     </Form>
     <div class="row">
         <div class="col-md-12 text-center">
-            <strong></strong>  <br/> 2015 Copyright    
+            <strong></strong>  <br/> 2015 Copyright
         </div>
     </div>
 

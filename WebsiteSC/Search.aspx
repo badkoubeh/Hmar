@@ -19,7 +19,7 @@
                         <a class="showhide"><i class="fa fa-chevron-up"></i></a>
                         <a class="closebox"><i class="fa fa-times"></i></a>
                     </div>
-                  List 
+                  List
                 </div>
                 <div class="panel-body">
                     <input type="text" class="form-control input-sm m-b-md" id="filter" placeholder="Search in table"/>
@@ -33,7 +33,7 @@
                             <th  data-hide="all">قیمت</th>
                             <th  data-hide="all">تعداد صفحات</th>
                             <th data-hide="all">چکیده</th>
-                          
+
                             <th data-hide="all">تعداد بازدید</th>
                             <th data-hide="all"></th>
                         </tr>
@@ -48,16 +48,16 @@
                                 <div class="  float-e-margins">
                                 <asp:LinkButton class="btn btn-primary " runat="server" ID="btnbuy" CommandArgument='<%#Eval("ID") %>' OnClick="Unnamed_Click"><i class="fa fa-cart-plus"></i><span class="bold">خرید</span> </asp:LinkButton>
                                 <asp:LinkButton runat="server" ID="btnDownload" OnClick="btnDownload_Click" CommandArgument='<%#Eval("ID") %>' class="btn btn-success "><i class="fa fa-download"></i> <span class="bold">دریافت فایل</span></asp:LinkButton>
-                               
 
-                              
+
+
                             </div>
                         </div>
                             </td>
                                                         <td><%# (Eval("Price") == null ||(int)Eval("Price") == 0)  ? "رایگان" :Eval("Price")+ " تومان "%> </td>
                             <td><%#Eval("img1") %></td>
                             <td><%#Eval("Description")%></td>
-                            
+
                             <td>  12</td>
                             <td> <a href="<%# "Fa_Details_Blog.aspx?ID="+Eval("ID") %>" class="btn btn-info "><i class="fa fa-paste"></i><span>اطلاعات بیشتر</span> </a></td>
                         </tr>
@@ -89,7 +89,7 @@
 <script src="vendor/sparkline/index.js"></script>
 <script src="vendor/fooTable/dist/footable.all.min.js"></script>
     <script>
-        
+
     $(function () {
 
         // Initialize Example 1
